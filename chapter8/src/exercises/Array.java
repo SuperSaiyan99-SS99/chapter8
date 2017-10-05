@@ -14,9 +14,9 @@ public class Array {
 			{
 				highest = array[x];
 			}
-			if (array[x] % 2 == 0)
+			if (array[x] % 2 != 0)
 			{
-				System.out.println(array[x])
+				System.out.println(array[x]);
 			}
 		}
 		average = total / array.length;
